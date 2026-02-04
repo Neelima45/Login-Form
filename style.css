@@ -141,11 +141,6 @@ input[type="submit"]:hover {
   box-shadow: 0 0 25px rgba(221, 36, 118, 0.9);
 }
 
-/* Advanced selector examples */
-table tr:nth-child(even) td {
-  /* subtle row styling */
-}
-
 input[type="file"] {
   background: #0f2a36;
   border: 2px dashed #1e90ff;
