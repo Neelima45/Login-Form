@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form action="" class="form-container">
+      <h1>Course Registration Form</h1>
+      <fieldset>
+        <legend>Personal Details</legend>
+        <table>
+          <tr>
+            <td><label for="fname" placeholder="Ex:Neelima"> First Name</label></td>
+            <td>
+              <input type="text" name="fname" id="fname" />
+              <p class="msg">Enter Your Name</p>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="lname">Last Nmae</label></td>
+            <td>
+              <input type="text" name="lname" id="lname" />
+              <p class="msg">Enter Your Last Name</p>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="Mobilenumber">Mobile Number</label></td>
+            <td>
+              <input type="tel:" name="Mobilenumber" id="Mobilenumber" />
+              <p class="msg">Enter Your Mobilenumber</p>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="email">Email</label></td>
+            <td>
+              <input type="email" name="email" id="email" />
+              <p class="msg">Enter Your valid email</p>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="password">Password</label></td>
+            <td>
+              <input type="password" name="password" id="password" />
+              <p class="msg">Enter Your Password</p>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="cpassword">Confirm Password</label></td>
+            <td><input type="password" name="cpassword" id="cpassword" /></td>
+          </tr>
+          <tr>
+            <td><label for="Date of Birth">DOB</label>
+            <p class="msg">Enter Your DOB</p></td>
+            </td>
+            <td>
+              <input type="date" name="Date of Birth" id="Date of Birth" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="Gender"> Gender</label></td>
+            <td>
+              <input type="radio" name="Gender" id="Gender" />
+              <label for="Male"> Male</label>
+              <input type="radio" name="Gender" id="Male" />
+              <label for="Female"> Female</label>
+              <input type="radio" name="Gender" id="Female" />
+              <label for="Others"> Others</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="select country">Select Country</label></td>
+            <td>
+              <select name="select country" id="select country">
+                <option value="Select">Select your country</option>
+                <option value="India">India</option>
+                <option value="Russia">Russia</option>
+                <option value="Australia">Australia</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="Uploadpicture">Upload Picture</label></td>
+            <td>
+              <input type="file" name="Uploadpicture" id="Uploadpicture" />
+            </td>
+          </tr>
+          <tr>
+            <td><input type="submit" name="submit" id="submit" /></td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Course Details</legend>
+        <td><label for="Select Course">Select Course</label></td>
+        <td>
+          <select name="select Course" id="select Course">
+            <option value="Select">Select Course</option>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="Front End">Front End</option>
+          </select>
+        </td>
+        <br /><br>
+        <tr>
+          <td><label for="Mode of Course">Course Mode</label></td>
+          <td>
+            <input type="radio" name="Mode of Course" id="Mode of Course" />
+            <label for="Online">Online</label>
+            <input type="radio" name="Mode of Course" id="Online" />
+            <label for="Offline"> Offline</label>
+          </td>
+        </tr>
+        <br /><br>
+        <tr>
+          <td><label for="Comments">Comments</label></td>
+          <td>
+            <textarea
+              name="Comments"
+              id="Comments"
+              row="4"
+              columns="40"
+            ></textarea>
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <label for="Submit"></label>
+          <input type="submit" name="submit" id="submit" />
+        </tr>
+      </fieldset>
+    </form>
+  </body>
+</html>
